@@ -1,0 +1,25 @@
+vsim work.test
+# vsim work.test 
+# Start time: 17:46:30 on Mar 08,2024
+# Loading work.test
+# Loading work.Vending_Machine
+add wave -position insertpoint sim:/test/*
+run
+run
+./run_test
+# 
+# do load.do
+# ../rtl
+# Errors: 0, Warnings: 0
+vsim work.test
+# End time: 17:48:00 on Mar 08,2024, Elapsed time: 0:01:30
+# Errors: 0, Warnings: 0
+# vsim work.test 
+# Start time: 17:48:00 on Mar 08,2024
+# Loading work.test
+# Loading work.Vending_Machine
+add wave -position insertpoint sim:/test/*
+run
+run
+run
+run
